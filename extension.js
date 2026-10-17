@@ -1,4 +1,4 @@
-/*! 끄적 친구 (Typing Buddy) 3.5.1
+/*! 끄적 친구 (Typing Buddy) 3.5.2
  * 채팅 입력창 커서를 따라다니는 작은 친구.
  * 떠 있는 버튼(또는 Alt+Shift+K)을 누르면 꾸미기 창이 열려요.
  * 등장 · 쓸 때 · 지울 때 · 줄바꿈 · 보낼 때 · 붙여넣기 · 쉴 때마다 움직임, 그림, 효과를 따로 고를 수 있어요.
@@ -360,7 +360,7 @@
   const style = document.createElement("style");
   style.id = "kkj-buddy-style";
   style.textContent = `
-#kb{position:fixed;left:0;top:0;z-index:50;pointer-events:none;opacity:0;visibility:hidden;will-change:transform;
+#kb{position:fixed;left:0;top:0;z-index:2147482000;pointer-events:none;opacity:0;visibility:hidden;will-change:transform;
   transition:opacity var(--kb-fade,.2s) ease,visibility 0s linear var(--kb-fade,.2s);contain:layout style}
 #kb.kb-on{opacity:1;visibility:visible;transition:opacity var(--kb-fade,.2s) ease}
 #kb:not(.kb-on) :is(.kb-idle,.kb-act){animation-play-state:paused}
@@ -388,7 +388,7 @@ ${kf("l", LOOPS)}
 .kb-art .kb-line{fill:none;stroke:var(--kb-dark,#2f2523);stroke-width:.7;stroke-linecap:round;opacity:.75}
 :root[data-theme="dark"]{--kb-body:#eadccb;--kb-dark:#7d6c5f;--kb-paper:#efe6d8;--kb-edge:rgba(20,16,15,.85)}
 
-.kb-fx{position:fixed;inset:0;z-index:80;pointer-events:none;overflow:hidden;contain:strict}
+.kb-fx{position:fixed;inset:0;z-index:2147482001;pointer-events:none;overflow:hidden;contain:strict}
 .kb-p{position:absolute;left:0;top:0;line-height:1;white-space:nowrap}
 .kb-p.kb-tint{color:var(--lt-seal,var(--primary,#c78c85))}
 .kb-p img{display:block;width:1em;height:1em;max-width:none;object-fit:contain}
@@ -399,7 +399,7 @@ ${kf("l", LOOPS)}
 .kb-mirror{position:fixed;left:-9999px;top:0;visibility:hidden;white-space:pre-wrap;overflow-wrap:break-word;overflow:hidden;contain:layout paint style}
 
 /* 떠 있는 버튼 */
-.kb-fab{position:fixed;z-index:65;width:38px;height:38px;border-radius:50%;padding:0;touch-action:none;
+.kb-fab{position:fixed;z-index:2147482002;width:38px;height:38px;border-radius:50%;padding:0;touch-action:none;
   border:1px solid var(--border,#e6d6c4);background:var(--card,#fffaf2);color:var(--lt-seal,var(--primary,#b8726b));
   display:flex;align-items:center;justify-content:center;box-shadow:0 3px 12px -2px rgba(60,35,25,.25);
   transition:transform .15s ease, box-shadow .15s ease;cursor:grab}
@@ -410,7 +410,7 @@ ${kf("l", LOOPS)}
 .kb-fab[hidden]{display:none}
 
 /* 꾸미기 창 */
-.kb-panel{position:fixed;top:12px;z-index:70;width:min(360px,calc(100vw - 24px));
+.kb-panel{position:fixed;top:12px;z-index:2147482003;width:min(360px,calc(100vw - 24px));
   max-height:calc(100vh - 24px);display:flex;flex-direction:column;border-radius:16px;
   background:var(--popover,#fffaf2);color:var(--popover-foreground,#3a2c27);
   border:1px solid var(--border,#e6d6c4);box-shadow:0 14px 36px -10px rgba(60,35,25,.35);
