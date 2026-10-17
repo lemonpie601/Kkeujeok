@@ -1,0 +1,14 @@
+{
+  "kind": "marinara.personal-extension",
+  "version": 1,
+  "config": {
+    "name": "끄적 친구 (Typing Buddy)",
+    "version": "3.5.1",
+    "description": "채팅 입력창 커서를 따라다니는 작은 친구. 그림함에 그림을 여러 장 담아 친구·표정·효과로 쓰고, 상황마다 움직임(30가지+)과 하트 뿅뿅·잉크 뚝뚝 같은 효과를 골라요. 그림함·프리셋·설정은 Marinara 서버에 저장돼서 PC·폰·Tailscale 어디서 열어도 같아요.",
+    "runtime": "client",
+    "capabilities": [
+      "full_page_access"
+    ],
+    "jsPath": "extension.js"
+  }
+}
