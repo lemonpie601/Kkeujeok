@@ -3,6 +3,14 @@
 [Marinara Engine](https://github.com/Pasta-Devs/Marinara-Engine) 채팅 입력창의 커서를 따라다니는 작은 친구예요.
 글을 쓰면 끄적이고, 지우면 도리도리하고, 보내면 슝 날아가요. 하트가 뿅뿅 튀거나 잉크가 뚝뚝 떨어지게 꾸밀 수도 있어요.
 
+## 사용 설명서
+
+![입력창의 작은 친구](docs/guide-1-main.png)
+![꾸미기 창 – 친구](docs/guide-2-buddy.png)
+![꾸미기 창 – 움직임](docs/guide-3-move.png)
+![꾸미기 창 – 효과](docs/guide-4-fx.png)
+![꾸미기 창 – 프리셋](docs/guide-5-preset.png)
+
 ## 할 수 있는 것
 
 - **친구 그림**: 만년필·깃펜·연필, 또는 직접 올린 그림(PNG·WebP·JPG, 150KB 이하 움직이는 GIF)
